@@ -18,7 +18,32 @@
   <title>Project</title>  
 
 <link href="./main.3da94fde.css" rel="stylesheet"></head>
+<style>
+  /* Hero section style */
+  .hero-full-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-image: url('./assets/images/IMG_20241210_231036.jpg'); /* Path to the image */
+    background-size: cover; /* Ensures the background covers the entire container */
+    background-position: center; /* Keeps the image centered */
+    background-repeat: no-repeat; /* Prevents repeating */
+    padding-left: 20px; /* Add left padding */
+    padding-right: 20px; /* Add right padding */
+  }
 
+  /* Responsive rules for smaller screens */  
+  @media (max-width: 768px) {
+    .hero-full-container {
+      height: auto; /* Allow height to adjust for content */
+      min-height: 50vh; /* Set a minimum height for smaller screens */
+      background-size: cover; /* Keep the image covering the container */
+      background-position: center; /* Keep the image centered */
+      padding: 50px; /* Smaller padding for smaller screens */
+      padding: 50px; 
+    }
+  }
+</style>
 <body>
 
  <!-- Add your content of header -->
@@ -66,12 +91,12 @@
 </header>
 
   
-<div class="hero-full-container background-image-container white-text-container" style="background-image:url('./assets/images/IMG_20241210_231036.jpg')">
+<div class="hero-full-container background-image-container white-text-container">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
         <div class="hero-full-wrapper">
-          <div class="text-content  text-center">
+          <div class="text-content text-center">
           </div>
         </div>
       </div>
@@ -83,9 +108,6 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <div class="text-center section-container-spacer">
-          <h2 class="with-project-number">Night Photography</h2>
-        </div>
         <div class="row section-container-spacer">
           <div class="col-md-4">
               <div class="section-container-spacer">
@@ -98,7 +120,7 @@
               <ul class="list-unstyled">
                 <li>Alight Motion</li> 
                 <li>Google Chrome</li>
-                <li>Niat</li>
+                <li>Figma</li>
               </ul>
           </div>
           <div class="col-md-8">
@@ -109,14 +131,12 @@
           </div>
         </div>
 
+        <div class="text-center section-container-spacer">
+          <h2 class="with-project-number">Beberapa project saya</h2>
+        </div>
 
-        <img src="./assets/images/New Project 7 PT 2.png" alt="" class="img-responsive">
-        <p>Puppercut</p>
-
-        <blockquote class="text-center large-spacing">
-            <p>"Semua project saya"</p>
-            <small class="pull-right">Dafa Ramadhan</small>
-        </blockquote>
+        <img src="./assets/images/WEBp.png" alt="" class="img-responsive">
+        <p>UI/UX</p>
         
         <div class="row">
             <div class="col-md-6">
